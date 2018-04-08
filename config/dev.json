@@ -1,0 +1,33 @@
+{
+    "env" : "dev",
+    "port" : 4019,
+    "host": "http://dev.fmfe.com",
+    "apiServer": "http://dev.fmfe.com/api/v1",
+    "mysql": {
+        "host": "192.168.8.6",
+        "port": 3316,
+        "database": "datastatistic",
+        "user": "root",
+        "password": "my-secret-pw"
+    },
+    "mssql": {
+        "user": "sa",
+        "password": "654321",
+        "server": "192.168.8.3",
+        "database": "FM_OS_V3",
+        "port": 1433,
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idleTimeoutMillis": 3000
+        }
+    },
+    "Session": {
+        "name": "followme-jyds-dev",
+        "secret": "followme"
+    },
+    "Cookie": {
+        "maxAge": 2592000000,
+        "httpOnly": true
+    }
+}

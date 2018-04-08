@@ -1,0 +1,34 @@
+{
+    "env" : "beta",
+    "port" : 6019,
+    "host":"https://alibetawww.followme.com",
+    "apiServer": "https://alibetawww.followme.com/api/v1",
+    "mysql": {
+        "host": "10.1.0.7",
+        "port": 3326,
+        "database": "datastatistic",
+        "user": "fmbetadb002",
+        "password": "31Bawd0c5GEq"
+    },
+    "mssql": {
+        "user": "betadb001",
+        "password": "fXpcD6hxL7Vj",
+        "server": "10.1.0.3",
+        "database": "FM_OS_V3",
+        "port": 1433,
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idleTimeoutMillis": 3000
+        }
+    },
+    "Session": {
+        "name": "followme-jyds-beta",
+        "secret": "followme"
+    },
+    "Cookie": {
+        "maxAge": 2592000000,
+        "domain": ".followme.com",
+        "httpOnly": true
+    }
+}
